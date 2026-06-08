@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>dubbyy - Projects</title>
+        <meta
+            name="description"
+            content="A personal website for project writeups, experience, skills, and contact links."
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <a class="skip-link" href="#projects">Skip to projects</a>
+
+        <header class="site-header">
+            <a class="brand" href="#hero" aria-label="Home">
+                <span class="brand-mark" aria-hidden="true">du</span>
+                <span>dubby</span>
+            </a>
+            <nav class="main-nav" aria-label="Main sections">
+                <a href="#about" data-track="about">About</a>
+                <a href="#projects" data-track="projects">Projects</a>
+                <a href="#experience" data-track="experience">Experience</a>
+                <a href="#skills" data-track="skills">Skills</a>
+                <a href="#contact" data-track="contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero" id="hero">
+                <div class="hero-copy">
+                    <p class="eyebrow">Project notes and experiments</p>
+                    <h1>Chidubem Uzoukwu</h1>
+                    <p>
+                        I build things, break them, learn from them, and write
+                        down the useful bits. Mostly software, robotics, design,
+                        and whatever I get curious about next.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button primary" href="#projects"
+                            >View Projects</a
+                        >
+                        <a class="button secondary" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="about" data-section="about">
+                <div class="section-title">
+                    <p class="eyebrow">About</p>
+                    <h2>About</h2>
+                </div>
+                <article class="content-panel">
+                    <h3>Hi, I'm Chidubem</h3>
+                    <p>
+                        but I go by
+                        <strong>Dubby</strong> or
+                        <strong>dubbyy</strong> online. I like making things
+                        that feel useful and a little bit fun, whether that is a
+                        web app, a robot mechanism, a design prototype, or a
+                        small tool that saves time.
+                    </p>
+                    <p>
+                        This site is where I am collecting project writeups,
+                        experiments, notes, and the occasional lesson learned
+                        the hard way.
+                    </p>
+                </article>
+            </section>
+
+            <section class="section" id="projects" data-section="projects">
+                <div class="section-title">
+                    <p class="eyebrow">Projects</p>
+                    <h2>Projects</h2>
+                </div>
+                <div class="project-grid" aria-live="polite">
+                    <article class="project-card">
+                        <span class="project-stamp">Robotics</span>
+                        <h3>Displaying Videos on a VEX V5 Brain</h3>
+                        <p>
+                            Custom image compression and a lightweight renderer
+                            for real-time animation on a constrained embedded
+                            system.
+                        </p>
+                        <a href="projects/vex-v5-video.html">Read project</a>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-stamp">Unfinished</span>
+                        <h3>PC Stats</h3>
+                        <p>
+                            A Linux desktop data tracker with a click heatmap,
+                            persistent storage, and a browser dashboard.
+                        </p>
+                        <a href="projects/pc-stats.html">Read project</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section" id="experience" data-section="experience">
+                <div class="section-title">
+                    <p class="eyebrow">Experience</p>
+                    <h2>Experience</h2>
+                </div>
+                <div class="timeline">
+                    <article>
+                        <span>Now</span>
+                        <h3>Personal Projects</h3>
+                        <p>
+                            Building software, robotics ideas, and design
+                            experiments as dubbyy online.
+                        </p>
+                    </article>
+                    <article>
+                        <span>HBAN</span>
+                        <h3>Tech Internship</h3>
+                        <p>
+                            Worked as a tech intern at HBAN, getting hands-on
+                            experience around real systems and workflows.
+                        </p>
+                    </article>
+                    <article>
+                        <span>VEX</span>
+                        <h3>Two-Time VEX V5 National Champion</h3>
+                        <p>
+                            Competed in VEX V5 robotics and won nationals twice
+                            with my team.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section" id="skills" data-section="skills">
+                <div class="section-title">
+                    <p class="eyebrow">Skills</p>
+                    <h2>Skills</h2>
+                </div>
+                <div class="skill-panel">
+                    <button
+                        class="skill-button"
+                        type="button"
+                        data-skill="Python"
+                    >
+                        Python
+                    </button>
+                    <button class="skill-button" type="button" data-skill="Web">
+                        HTML/CSS/JS
+                    </button>
+                    <button
+                        class="skill-button"
+                        type="button"
+                        data-skill="Svelte"
+                    >
+                        Svelte
+                    </button>
+                    <button
+                        class="skill-button"
+                        type="button"
+                        data-skill="Graphic Design"
+                    >
+                        Graphic Design
+                    </button>
+                    <button class="skill-button" type="button" data-skill="CAD">
+                        CAD
+                    </button>
+                    <output id="skillOutput">Select a skill.</output>
+                </div>
+            </section>
+
+            <section class="section" id="contact" data-section="contact">
+                <div class="section-title">
+                    <p class="eyebrow">Contact</p>
+                    <h2>Contact</h2>
+                </div>
+                <div class="contact-panel">
+                    <a href="mailto:dubster240@gmail.com">Email</a>
+                    <a href="https://github.com/dubbyy1">GitHub</a>
+                    <a href="https://dubbyy.itch.io">itch.io</a>
+                    <a
+                        href="https://www.linkedin.com/in/chidubem-uzouwku-566a36386/"
+                        >LinkedIn</a
+                    >
+                    <a href="https://www.instagram.com/dubby.uzo/">Instagram</a>
+                    <a href="#">Resume</a>
+                </div>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
